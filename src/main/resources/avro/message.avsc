@@ -1,0 +1,9 @@
+{"namespace": "net.siekiera.avro",
+  "type": "record",
+  "name": "Message",
+  "fields": [
+    {"name": "id", "type": "int"},
+    {"name": "header",  "type": ["string", "null"]},
+    {"name": "content", "type": ["string", "null"]}
+  ]
+}
